@@ -304,28 +304,11 @@ footer ul a:hover {
 /* fold title */
 .fold {
   background-color: #00A1E0;
-  padding: 3rem 2rem 3rem 1.5rem;
 }
 
-.fold-title {
-  min-width: 23rem;
-  width: 30%;
-  margin: 0 auto;
-}
-.fold-title::before {
-  content: "";
-  display: block;
-  float: left;
-  background-image: url(../../images/salesforce-character2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 9rem;
-  width: 9rem;
-  margin-right: 1rem;
-}
-.fold-title h1 {
-  padding-top: 1rem;
-  color: white;
+#fold-finances img {
+  width: 12rem;
+  padding-bottom: 2rem;
 }
 
 /* intro paragraph */
@@ -525,6 +508,11 @@ footer ul a:hover {
 }
 @media (min-width: 576px) and (min-width: 768px) {
   /* general */
+  .nav-logo {
+    background-image: url(../../images/salesforce-logo.svg);
+    height: 5rem;
+    width: 7rem;
+  }
   footer {
     flex-direction: row;
     justify-content: space-between;
